@@ -1,2 +1,3 @@
-.ipynb_checkpoints/*
-input/*
+input/train.csv
+input/test.csv
+.ipynb_checkpoints
