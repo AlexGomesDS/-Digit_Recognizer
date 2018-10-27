@@ -8,7 +8,7 @@ In this competition, your goal is to correctly identify digits from a dataset of
 
 ## Data preparation script
 
-- Description: If we reduce the train dataset to 10k records only with 28x28 pixels, it takes 10 min to train the logistic regression. 
+- **Description**: If we reduce the train dataset to 10k records only with 28x28 pixels, it takes 10 min to train the logistic regression. 
 In an attempt to overcome this problem we reduced the dimensionality of the problem by downsampling the images to 14x14 pixels.
 This comes at the cost of some information loss, however one can agree that even with this resolution the class of the digit's is recognizable.
 
