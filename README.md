@@ -12,10 +12,10 @@ In this competition, your goal is to correctly identify digits from a dataset of
 In an attempt to overcome this problem we reduced the dimensionality of the problem by downsampling the images to 14x14 pixels.
 This comes at the cost of some information loss, however one can agree that even with this resolution the class of the digit's is recognizable.
 
-- Script: *src/data_prep.ipynb*
+- **Script**: *src/data_prep.ipynb*
 
-- Input: original Kaggle datasets: 42K labeled records with 28x28=784 features
+- **Input**: original Kaggle datasets: 42K labeled records with 28x28=784 features  
 *data/train.csv*, *data/test.csv*
 
-- Output: new dataset with images of 14x14 pixels (which yields 196 features)
+- **Output**: new dataset with images of 14x14 pixels (which yields 196 features)  
 *data/train_14x14.csv*, *data/test_14x14.csv*
